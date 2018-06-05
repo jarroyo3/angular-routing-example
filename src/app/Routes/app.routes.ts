@@ -11,7 +11,7 @@ const APP_ROUTES: Routes = [
     { path: '', redirectTo: 'inicio', pathMatch: 'full' },
     { path: 'inicio', component: CmpHomeComponent },
     {
-        path: '',
+        path: 'usuario',
         component: GeneralLayoutComponent,
         children: [
             { path: 'tienda', component: CmpTiendaComponent },
